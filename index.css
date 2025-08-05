@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.body, html{
+    height: 100%;
+    background-color: black;
+}
+
+.body{
+
+}
+
+.user-01{
+    display: flex;
+
+}
+
+.user-02{
+
+}
+
+.user-03{
+
+}

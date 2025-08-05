@@ -4,24 +4,52 @@
     border: 0px;
 }
 
-.body, html{
+body, html{
     height: 100%;
     background-color: black;
 }
 
-.body{
-
+.container{
+    display: flex;
+    display: grid;
+    height: 100%;
 }
 
 .user-01{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: grid;
+    grid-template-columns:
 }
 
 .user-02{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
-
+    
 .user-03{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
 }
+
+.user-04{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+

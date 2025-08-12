@@ -1,0 +1,17 @@
+{
+  "name": "programacion-web",
+  "version": "1.0.0",
+  "description": "Repositorio creado para la entrega de tareas del curso de Programacion Web",
+  "main": "index.js",
+  "scripts": {    
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

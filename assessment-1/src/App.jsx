@@ -4,7 +4,7 @@ import PokemonCard from "./components/PokemonCard";
 export default function App() {
   const [pokemons, setPokemons] = useState([]);
   const [offset, setOffset] = useState(0);
-  const limit = 10; // para probar con pocos
+  const limit = 30; 
 
   useEffect(() => {
     async function fetchPokemons() {
